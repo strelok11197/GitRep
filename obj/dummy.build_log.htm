@@ -21,42 +21,26 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
 Dialog DLL:      TARMSTM.DLL V1.66.0.0
  
 <h2>Project:</h2>
-C:\Users\Dmitry\Desktop\Keil_4_Empty_Project (1)\Keil_4_Empty_Project\dummy.uvproj
-Project File Date:  10/09/2017
+C:\Users\Dmitry\Desktop\Keil_4_Empty_Project\dummy.uvproj
+Project File Date:  09/23/2016
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
 compiling main.c...
-src\main.c(25): warning:  #69-D: integer conversion resulted in truncation
-  i8=2100;
-src\main.c(26): warning:  #69-D: integer conversion resulted in truncation
-  i8=10240;
-src\main.c(27): warning:  #69-D: integer conversion resulted in truncation
-  i8=0x12345;
-src\main.c(36): warning:  #69-D: integer conversion resulted in truncation
-  i16=0x12345;
-src\main.c(58): warning:  #69-D: integer conversion resulted in truncation
-  ui8=2100;
-src\main.c(59): warning:  #69-D: integer conversion resulted in truncation
-  ui8=10240;
-src\main.c(60): warning:  #69-D: integer conversion resulted in truncation
-  ui8=0x12345;
-src\main.c(61): warning:  #68-D: integer conversion resulted in a change of sign
-  ui8=-120;
-src\main.c(67): warning:  #69-D: integer conversion resulted in truncation
-  ui16=0x12345;
-src\main.c(68): warning:  #68-D: integer conversion resulted in a change of sign
-  ui16=-120;
-src\main.c(75): warning:  #68-D: integer conversion resulted in a change of sign
-  ui32=-120;
-src\main.c(82): warning:  #68-D: integer conversion resulted in a change of sign
-  ui64=-120;
-src\main.c: 12 warnings, 0 errors
+src\main.c(79): warning:  #550-D: variable "numberInt"  was set but never used
+  	int32_t numberInt;
+src\main.c(83): warning:  #550-D: variable "numberOnes"  was set but never used
+  	uint8_t numberOnes;
+src\main.c(86): warning:  #550-D: variable "numberZeros"  was set but never used
+  	uint8_t numberZeros;
+src\main.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=1292 RO-data=268 RW-data=80 ZI-data=1688  
-".\obj\dummy.axf" - 0 Error(s), 12 Warning(s).
-Build Time Elapsed:  00:00:01
+Program Size: Code=1028 RO-data=280 RW-data=20 ZI-data=1636  
+".\obj\dummy.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>
